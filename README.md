@@ -10,3 +10,12 @@
 - 地鼠只會顯示0.5秒
 - 時間結束時，會有"GG"的字樣往左滑動離開
 - 按下button0即可reset遊戲
+
+## Module 說明
+- matrixKeyboard_drive & keypad：檢測哪個按鈕被按下
+- hit_gopher：處理打到地鼠的訊號
+- random_gen_state：隨機產生下個地鼠
+- dot_displayer：點矩陣顯示器控制
+- SevenSegment：七段顯示器控制
+- gg：呈現遊戲結束時的GG畫面
+- whack_a_hole：連結各module使遊戲運行
